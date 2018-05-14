@@ -1,6 +1,10 @@
 <h1>실습</h1>
 
-<a href="/post/index"> 제출</a><br>
+<form action="/post/create" method="post"></form>
+
+제목 : <input type="text" name = "name"><br>
+내용 : <input type="text" name = "content">
+<a href="/post/create"> 제출</a><br>
 
 <% @users.each do |user| %>
  <%= user.name %><br>

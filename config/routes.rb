@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   
   get 'post/new'
   
-  get 'home/create'
+  post 'post/create'
   
   
   
